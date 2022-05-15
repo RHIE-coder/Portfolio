@@ -1,0 +1,5 @@
+module.exports.SUCCESS = "SUCCESS"
+module.exports.NO_DATA = "NO_DATA"
+module.exports.EXIST_ALEADY = "EXIST_ALEADY"
+module.exports.INSUFFICIENCY = "INSUFFICIENCY"
+module.exports.ERROR = "ERROR"
