@@ -1,8 +1,10 @@
 <h1 align="center">Hello, Wemade!</h1>
 
-<p align="center">It's an honor to be able to apply for "Wemade"</p>
+<p align="center">안녕하세요.</p>
 
-<p align="center">Now! I will show my code style.</p>
+<p align="center">백엔드/블록체인 개발자 이민형입니다.</p>
+
+<p align="center">본 문서를 통해 저의 코드스타일을 표현해보았습니다.</p>
 
 <p align="center">( JavaScript-based )</p>
 
