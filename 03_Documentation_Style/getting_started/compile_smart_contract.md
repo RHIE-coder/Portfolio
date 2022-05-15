@@ -8,8 +8,16 @@
 npm i -D solc@0.8.13
 ```
 
-#### 3. Create `bin` and `abi`, using `solc` module.
+#### 3. Add Script in `package.json`
+
+```js
+   "scripts": {
+      "solc:build": "npx solc -p --bin --abi eth/go-ethereum/contracts/RhitherCoin.sol -o eth/go-ethereum/contracts/build"
+   },
+```
+
+#### 4. Create `bin` and `abi`, using `solc` module.
 
 ```sh
-npm run solc
+npm run solc:build
 ```

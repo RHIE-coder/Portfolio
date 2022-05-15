@@ -45,6 +45,7 @@ solidity ^0.8.0
 #### 1. Create a directory before you begin.
 
 ```
+npm init -y
 mkdir eth
 cd eth
 mkdir go-ethereum
