@@ -9,7 +9,7 @@
 
 ## `utils/SafeMath.sol`
 
-```sol
+```solidity
 //SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -63,7 +63,7 @@ library SafeMath {
 
 ## `utils/Context.sol`
  
-```sol
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -80,7 +80,7 @@ abstract contract Context {
 ```
 ## `extensions/IERC20Metadata.sol`
  
-```sol
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -97,7 +97,7 @@ interface IERC20Metadata{
 
 ## `IERC20.sol`
 
-```sol
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -128,7 +128,7 @@ interface IERC20 {
 
 ## `ERC20.sol`
 
-```sol
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -259,7 +259,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
  
 ## `RhitherCoin.sol`
 
-```sol
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
