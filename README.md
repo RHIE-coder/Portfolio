@@ -99,12 +99,17 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
  - [데이터베이스 스키마 분리 및 자동화](./01_Application_Dev_Style/schema.md)
  - [암호 저장 기법](./01_Application_Dev_Style/crypto.md)
 
-
 저의 위와 같은 노력들을 통해 `git`, `github`를 통한 형상관리 및 협업 툴을 사용할 때, 최대한 충돌이 적고, 더욱 용이한 `merge` 작업이 이뤄지기를 기대합니다.
+
+또한, 복잡해지고 난잡해질 수 있는 코드는 최대한 모듈화하여 사용을 편하게 하려는 습관을 가지고 있습니다.
+
+ - [모듈화 예시 코드](./01_Application_Dev_Style/sample/module/coupang-api-requester.js)
+
+위 코드는 내부적으로 어떻게 구성되어 있는지 알 필요없이 `getData` 함수만 사용하면 됩니다. 옵션과 요청Body만 잘 넘겨주면 내부적으로 옵션을 파싱(Parsing)하고 플랫폼에서 요구한 형식대로 Header를 구성하여 API 요청처리가 되는 모듈입니다.
 
 <br><br><br><br><br>
 
-# 02. JS/TS-related Works && && Smart Contract Dev.
+# 02. JS/TS-related Works `&&` Smart Contract Dev.
 
 DApp 개발 환경을 TypeScript 중심으로 개발하도록 시도하고 있습니다.
 
@@ -114,7 +119,11 @@ DApp 개발 환경을 TypeScript 중심으로 개발하도록 시도하고 있�
  
 스마트 컨트렉트는 [`Open Zeppelin`](https://github.com/OpenZeppelin/openzeppelin-contracts)에서 제안한 표준을 이해하고 적용해보려고 노력하고 있습니다. 또한, 개발 시 프레임워크는 [`Truffle`](https://trufflesuite.com/docs/truffle/)을 사용합니다.
 
-#### - [Sample Project Structure](./02_JS_TS_Related_Works/sample/)
+#### [Sample Project Structure](./02_JS_TS_Related_Works/sample/)
+
+블록체인 관련 스크립트를 만드는 등의 CLI 전용 파일을 만드는 것도 즐겁습니다.
+
+ - [스크립트 파일 예시](./03_Documentation_Style/getting_started/linking_accounts_with_metamask.md)
 
 <br><br><br><br><br>
 
