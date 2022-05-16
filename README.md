@@ -102,7 +102,9 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 또한, 복잡해지고 난잡해질 수 있는 코드는 최대한 모듈화하여 사용을 편하게 하려는 습관을 가지고 있습니다.
 
- - [모듈화 예시 코드](./01_Application_Dev_Style/sample/module/coupang-api-requester.js)
+ - [모듈화 예시 코드: API Caller](./01_Application_Dev_Style/sample/module/coupang-api-requester.js)
+
+ - [모듈화 예시 코드: DID-related Crypto](./01_Application_Dev_Style/sample/lib/did_crypto_caller.js)
 
 위 코드는 내부적으로 어떻게 구성되어 있는지 알 필요없이 `getData` 함수만 사용하면 됩니다. 옵션과 요청Body만 잘 넘겨주면 내부적으로 옵션을 파싱(Parsing)하고 플랫폼에서 요구한 형식대로 Header를 구성하여 API 요청처리가 되는 모듈입니다.
 
