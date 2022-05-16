@@ -104,7 +104,7 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 <br><br><br><br><br>
 
-# 02. JS/TS-related Works
+# 02. JS/TS-related Works && && Smart Contract Dev.
 
 DApp 개발 환경을 TypeScript 중심으로 개발하도록 시도하고 있습니다.
 
@@ -118,7 +118,7 @@ DApp 개발 환경을 TypeScript 중심으로 개발하도록 시도하고 있�
 
 <br><br><br><br><br>
 
-# 03. Documentation && Smart Contract Dev.
+# 03. Documentation
 
 문서화 스킬은 부서간 의사소통, API, SDK 등의 활용을 쉽게 만들고, 플랫폼과 프레임워크 시장 선점을 위해 중요한 스킬이라 생각합니다.
 
