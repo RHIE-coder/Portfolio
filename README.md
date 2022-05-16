@@ -12,7 +12,7 @@
 
 # 01. Application Dev.
 
-저는 개발 협업을 위해 각각의 기능에 집중할 수 있도록 하고 최대한 수정이 적은 프로그래밍을 지향합니다.
+저는 수정이 적은 코드 및 개발 협업에 용이한 코드를 작성하려고 노력합니다.
 
 예를 들어 아래와 같은 코드는 개발 협업 중에 변하지 않는 코드입니다.
 
@@ -90,14 +90,13 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 });
 ```
 
-위와 같은 코드가 변하지 않는 이유는 다음과 같습니다.
+위와 같은 코드가 변하지 않으면서 개발 협업을 더 쉽게 하기 위해 다음과 같은 노력을 해보았습니다.
 
  - [설정 파일 분리](./01_Application_Dev_Style/config.md)
  - [인증 및 인가 역할 분리](./01_Application_Dev_Style/auth.md)
  - [라우팅 분리 및 자동화](./01_Application_Dev_Style/routing.md)
- - [RESTful 설계](./01_Application_Dev_Style/rest.md)
  - [데이터베이스 스키마 분리 및 자동화](./01_Application_Dev_Style/schema.md)
- - [암호 저장 기법](./01_Application_Dev_Style/crypto.md)
+ - [RESTful 설계](./01_Application_Dev_Style/rest.md)
 
 저의 위와 같은 노력들을 통해 `git`, `github`를 통한 형상관리 및 협업 툴을 사용할 때, 최대한 충돌이 적고, 더욱 용이한 `merge` 작업이 이뤄지기를 기대합니다.
 
@@ -106,6 +105,11 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
  - [모듈화 예시 코드](./01_Application_Dev_Style/sample/module/coupang-api-requester.js)
 
 위 코드는 내부적으로 어떻게 구성되어 있는지 알 필요없이 `getData` 함수만 사용하면 됩니다. 옵션과 요청Body만 잘 넘겨주면 내부적으로 옵션을 파싱(Parsing)하고 플랫폼에서 요구한 형식대로 Header를 구성하여 API 요청처리가 되는 모듈입니다.
+
+추가로, 보안을 위한 생각도 자주합니다.
+
+ - [암호 저장 기법](./01_Application_Dev_Style/crypto.md)
+
 
 <br><br><br><br><br>
 
