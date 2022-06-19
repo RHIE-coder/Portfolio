@@ -140,7 +140,7 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 모듈을 만드는 것을 즐겨하여 다음과 같은 모듈을 만들어 사용해보았습니다.
 
- - [이더리움 RPC & Web3 RPC 모듈](./02_JS_TS_Related_Works/web3rpc.md.md)
+ - [이더리움 RPC & Web3 RPC 모듈](./02_JS_TS_Related_Works/web3rpc.md)
 
 
 <!-- #### [현재 개발 중인 예시 프로젝트: Rhithereum](https://github.com/RHIE-coder/Rhithereum) -->
