@@ -19,7 +19,8 @@ const fs = require("fs");
 /**
  * @author rhie-coder
  * @desc This script file will help you get private keys.
- * Geth's not support to export private key directly.
+ * Why need this module?
+ *  - Geth's not support to export private key directly.
  */
 const rootDir = path.join(__dirname, "data");
 const keystoreDir = path.join(rootDir, "keystore");

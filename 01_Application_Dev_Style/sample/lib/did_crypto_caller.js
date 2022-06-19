@@ -1,5 +1,4 @@
-const spawn = require('child_process').spawn;
-
+/* Utils */
 function deepJSONstring(json) {
     let cache = [];
     const data = JSON.stringify(json, (key, value) => {
@@ -17,6 +16,7 @@ function deepJSONstring(json) {
     return data;
 }
 
+/* Main */
 const spawn = require('child_process').spawn;
 
 function did_crypto_call(funcName, paramObj) {
@@ -30,7 +30,5 @@ function did_crypto_call(funcName, paramObj) {
             })
         })
 }
-
-module.exports = {did_crypto_call}
 
 module.exports = {deepJSONstring, did_crypto_call}
