@@ -131,7 +131,17 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
  - 코드 스타일 통합: `EsLint` + `Prettier`
  - 커버리지: `NYC`
 
-스마트 컨트렉트는 [`Open Zeppelin`](https://github.com/OpenZeppelin/openzeppelin-contracts)에서 제안한 표준을 이해하고 적용해보려고 노력하고 있습니다. 또한, 개발 시 프레임워크는 [`Truffle`](https://trufflesuite.com/docs/truffle/)을 사용합니다.
+스마트 컨트렉트(Smart Contract)는 [`Open Zeppelin`](https://github.com/OpenZeppelin/openzeppelin-contracts)에서 제안한 표준을 이해하고 적용해보려고 노력하고 있습니다. 또한, 개발 시 프레임워크는 [`Truffle`](https://trufflesuite.com/docs/truffle/)을 사용합니다.
+
+그 전에 프레임워크 도움 없이 스마트 컨트렉트 작성 및 RPC 호출을 통한 스마트 컨트렉트 배포까지 해보았습니다.
+
+ - [스마트 컨트렉트 작성 & 배포](./02_JS_TS_Related_Works/contract.md)
+
+
+모듈을 만드는 것을 즐겨하여 다음과 같은 모듈을 만들어 사용해보았습니다.
+
+ - [이더리움 RPC & Web3 RPC 모듈](./02_JS_TS_Related_Works/web3rpc.md.md)
+
 
 <!-- #### [현재 개발 중인 예시 프로젝트: Rhithereum](https://github.com/RHIE-coder/Rhithereum) -->
 
