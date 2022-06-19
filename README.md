@@ -150,10 +150,18 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 #### [2020-CALL-FOR-CODE 해커톤 History 기록](https://github.com/RHIE-coder/Project.2020-CALL-FOR-CODE)
 
 
+또한 문서를 읽는 능력도 중요하다고 생각합니다. 다음 PPT 자료는 제가 대학원 때 [DID 관련 문서](https://www.w3.org/TR/did-core/)와 [OAuth 관련 문서](https://datatracker.ietf.org/doc/html/rfc6749)를 읽고 발표한 자료들입니다.
+
+ - [Decentralized Identifiers](./Decentralized%20Identifiers.pptx)
+ - [OAuth2.0](./OAuth2.0.pptx)
+
 <br><br><br><br><br>
 
 
 # 04. Other Experience
+
+ - Decentralized Identifier
+
 
 #### [DeepFakeDetection Project](https://github.com/RHIE-coder/Project.DeepFakeDetection)
 
@@ -162,9 +170,6 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 개인적으로 많이 부족하고 이미 훌륭한 분들이 만들어낸 라이브러리 및 프레임워크를 단순하게 활용한 정도라 내세울 부분은 아니라고 생각이 듭니다.
 
 그래도 개인적으로 열심히 했던 프로젝트라 한번 조심스럽게 드러내봅니다.
-
-
-
 
 
 

@@ -299,8 +299,8 @@ const res = await did_crypto_call("verify_challenge", verify_challenge_args)
 console.log(res)
 ```
 
-위 코드와 같이 `did_crypto_call()` 함수에 호출할 함수 이름과 인수(Parameters)에 들어갈 인자(Arguments) 값들만 넘겨주면 된다.
+위 코드와 같이 `did_crypto_call()` 함수에 호출할 함수 이름과 인수(Parameters)에 들어갈 인자(Arguments) 값들만 넘겨주면 되는 코드입니다.
 
 #### 아쉬운 점
 
-프로세스를 통한 방식은 문자열 처리에 문제가 있어 `Base64`과 같이 특정 방식으로 인코딩하여 전달해야만 했다. 그리고 에러 코드를 알기 힘들어 디버깅에 힘들었다. 본 방식은 `RPC(Remote Procedure Call)`과 유사하다. 차라리 JSON-RPC 서버를 두어 통신하였으면 좋았을 것 같다.
+프로세스를 통한 방식은 문자열 처리에 문제가 있어 `Base64`과 같이 특정 방식으로 인코딩하여 전달해야만 했습니다. 그리고 에러 코드를 알기 힘들어 디버깅에 힘들었습니다. 보시다시피 본 방식은 `RPC(Remote Procedure Call)`과 유사합니다. 차라리 JSON-RPC 서버를 두어 통신하였으면 좋았을 것 같습니다.
