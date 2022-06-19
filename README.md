@@ -147,9 +147,6 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 #### [Hyperledger Aries 관련 지식 공유](https://github.com/RHIE-coder/Playground.Hyperledger-Aries)
 
-#### [2020-CALL-FOR-CODE 해커톤 History 기록](https://github.com/RHIE-coder/Project.2020-CALL-FOR-CODE)
-
-
 또한 문서를 읽는 능력도 중요하다고 생각합니다. 다음 PPT 자료는 제가 대학원 때 [DID 관련 문서](https://www.w3.org/TR/did-core/)와 [OAuth 관련 문서](https://datatracker.ietf.org/doc/html/rfc6749)를 읽고 발표한 자료들입니다.
 
  - [Decentralized Identifiers](./Decentralized%20Identifiers.pptx)
