@@ -175,6 +175,12 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 #### [DeepFakeDetection Project](https://github.com/RHIE-coder/Project.DeepFakeDetection)
 
+#### NOTICE
+```
+간혹 주피터 노트북 용량으로 인해 한번에 뜨지 않아 대기시간(대략 10초 내)이 있을 수 있습니다.
+깃허브측에서 주어진 시간 안에 데이터를 로딩하지 못하면 로딩 실패로 간주하는 것이 원인으로 보여집니다.
+만일 로드하지 못했다고 계속 뜬다면 3초 간격으로 새로고침하시면 됩니다.
+```
 사실 딥러닝CNN에 대한 전문적인 지식 없이 이미 훌륭한 분들이 만들어낸 라이브러리 및 프레임워크를 단순하게 활용한 정도라 감히 내세울 부분은 아니라고 생각이 듭니다.
 
 그래도 개발자로서 `인공지능`을 활용한 어플리케이션 개발 역량은 언젠가는 필요한 기술이라 열심히 했던 기억에 조심스럽게 드러내봅니다.
