@@ -160,9 +160,6 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 # 04. Other Experience
 
- - Decentralized Identifier
-
-
 #### [DeepFakeDetection Project](https://github.com/RHIE-coder/Project.DeepFakeDetection)
 
 사실 딥러닝CNN에 대한 전문적인 지식 없이 이미 훌륭한 분들이 만들어낸 라이브러리 및 프레임워크를 단순하게 활용한 정도라 감히 내세울 부분은 아니라고 생각이 듭니다.
