@@ -4,9 +4,9 @@
 
 <p align="center">백엔드/블록체인 개발자 이민형입니다.</p>
 
-<p align="center">Java-Spring으로 개발을 시작하여 대학원에 들어가 그 후 JavaScript 기반 개발을 주로 하였습니다.</p>
+<p align="center">Java-Spring 개발로 시작하여 블록체인 연구를 위해 대학원에 들어간 후 JavaScript 기반 개발을 주로 하고 있습니다.</p>
 
-<p align="center">대학원에서는 블록체인관련 연구를 하였고 주 연구 키워드로 Hyperledger, DID가 있습니다.</p>
+<p align="center">대학원 블록체인 연구실에 들어가 블록체인 관련 과제 및 논문을 주로 수행 및 작성하였고, 주 연구 키워드로 Hyperledger, DID가 있습니다.</p>
 
 <p align="center">현재는 취업을 준비하면서 기업의 니즈에 따라 Ethereum 생태계 중심의 개발을 하고 있습니다.</p>
 
