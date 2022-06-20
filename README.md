@@ -173,7 +173,7 @@ https.createServer(serverConfig.httpsOpts, app).listen(serverConfig.port, () => 
 
 # 04. Other Experience
 
-#### [DeepFakeDetection Project](https://github.com/RHIE-coder/Project.DeepFakeDetection)
+#### [DeepFakeDetection Project](https://github.com/RHIE-coder/Project.DeepFakeDetection) --> `workspace` 폴더를 확인하시면 됩니다
 
 #### NOTICE
 ```
