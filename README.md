@@ -6,9 +6,9 @@
 
 <p align="center">Java-Spring 개발로 시작하여 블록체인 연구를 위해 대학원에 들어간 후 JavaScript 기반 개발을 주로 하고 있습니다.</p>
 
-<p align="center">대학원 블록체인 연구실에 들어가 블록체인 관련 과제 및 논문을 주로 수행 및 작성하였고, 주 연구 키워드로 Hyperledger, DID가 있습니다.</p>
+<p align="center">주 연구 키워드로 Hyperledger, DID가 있습니다.</p>
 
-<p align="center">현재는 취업을 준비하면서 기업의 니즈에 따라 Ethereum 생태계 중심의 개발을 하고 있습니다.</p>
+<p align="center">현재는 취업을 준비하면서 기업의 니즈에 따라 Ethereum 생태계 중심의 개발을 하고 있습니다</p>
 
 <p align="center">저의 코드 스타일과 기술 경험들을 소개하겠습니다.</p>
 
