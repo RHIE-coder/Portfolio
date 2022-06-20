@@ -6,7 +6,7 @@
 
 <p align="center">Java-Spring 개발로 시작하여 블록체인 연구를 위해 대학원에 들어간 후 JavaScript 기반 개발을 주로 하고 있습니다.</p>
 
-<p align="center">주 연구 키워드로 Hyperledger, DID가 있습니다.</p>
+<p align="center">저의 석사 학위 주 연구 키워드는 Hyperledger, DID, Self-Sovereign Identity 그리고 MyData입니다.</p>
 
 <p align="center">현재 블록체인 산업 및 기업들과 더욱 전문적인 동반관계를 맺기 위해 Ethereum 생태계 중심의 개발을 하고 있습니다.</p>
 
