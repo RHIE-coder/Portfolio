@@ -8,7 +8,7 @@
 
 <p align="center">주 연구 키워드로 Hyperledger, DID가 있습니다.</p>
 
-<p align="center">현재는 블록체인 산업 및 기업들의 니즈에 맞춰서 Ethereum 생태계 중심의 개발을 하고 있습니다.</p>
+<p align="center">현재 블록체인 산업 및 기업들과 더욱 전문적인 동반관계를 맺기 위해 Ethereum 생태계 중심의 개발을 하고 있습니다.</p>
 
 <p align="center">저의 코드 스타일과 기술 경험들을 소개하겠습니다.</p>
 
